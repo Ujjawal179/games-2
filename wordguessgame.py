@@ -48,11 +48,7 @@ while turns > 0:
           
         turns -= 1
            
-        print("Wrong") 
-          
-         
-        print("You have", + turns, 'more guesses left') 
-          
+        print("Oh no, you was close \n Try again you have , + turns , more chances to guess")         
           
         if turns == 0: 
-            print("You Loose!bettter luck next time")
+            print("Better luck next time and answer was {n}. \n GAME OVER")
